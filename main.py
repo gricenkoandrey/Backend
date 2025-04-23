@@ -11,7 +11,7 @@ app = FastAPI()
 
 # Настройка CORS для разрешения запросов с Frontend
 origins = [
-    "https://your-frontend-project.vercel.app",  # Заменить на URL твоего Frontend
+    "https://backendg-ikvbvfejn-gricenkoandreys-projects.vercel.app/",  # Заменить на URL твоего Frontend
 ]
 
 app.add_middleware(
